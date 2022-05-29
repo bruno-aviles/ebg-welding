@@ -23,12 +23,7 @@
 .subheading{font-family: var(--subheading);}
 .body{font-family: var(--body);}
 
-html{
-    /* scroll-padding-top: 70px; */
-}
-
 /* Navbar */
-/* .navbar_custom{} */
 .nav_link_style{
     color: var(--white);
     font-family: var(--subheading);
@@ -42,8 +37,6 @@ html{
 
 /* Hero Section */
 .section_hero{
-    /* border: solid 1px black; */
-    /* background-color: var(--grey); */
     background-image: linear-gradient(rgba(0, 0, 0, 0.727),rgba(1, 27, 43, 0.7)), url(/images/hero-image.jpg);
     background-size: cover;
     background-position: center;
@@ -51,7 +44,6 @@ html{
     position: relative;
 }
 .hero_info{
-    /* border: solid 1px black; */
     position: absolute;
     left: 50%;
     top: 50%;
@@ -76,9 +68,6 @@ html{
 .section_services{
     background-color: var(--darkblue);
 }
-/* .services_pictures-container{
-    border: solid 2px white;
-} */
 .services_pictures-heading{
     text-align: center;
     color: var(--white);
@@ -93,9 +82,6 @@ html{
     height: 400px;
     width: 300px;
 }
-/* .services_info{
-    border: solid 2px white;
-} */
 .services_info_container{
     /* border: solid 2px red; */
     padding: 0px 1rem;
@@ -116,7 +102,6 @@ html{
     background-color: var(--lightblack);
 }
 .logo_container{
-    /* border: solid 2px red; */
     display: flex;
     justify-content: center;
     padding-top: 3rem;
@@ -140,9 +125,6 @@ html{
     font-family: var(--heading);
     color: var(--white);
 }
-/* .socialmedia_links_container{
-    border: solid 1px orange;
-} */
 .socialmedia_icon{
     color: var(--white);
 }
@@ -164,7 +146,6 @@ html{
     padding-left: 8px;
     padding-right: 8px;
 }
-/* .contact_info_container{} */
 .contact_info_group{
     display: flex;
     padding-top: 3px;
@@ -175,9 +156,7 @@ html{
 .icon_style{
     color: var(--blue);
 }
-/* .contact_info_address{} */
-/* .contact_info_telephone{} */
-/* .contact_info_email{} */
+
 footer{
     height: 20px;
     background-color: var(--darkblue);
@@ -250,12 +229,10 @@ footer>h6>a{
         margin-top: 2rem;
     }
     .about_description{
-        /* border: solid 1px white; */
         width: 350px;
     }
     /* Contact Info Section */
     .contact_info_container{
-        /* border: solid 1px white; */
         display: flex;
         justify-content: space-evenly;
     }
@@ -315,7 +292,6 @@ footer>h6>a{
         margin-top: 2rem;
     }
     .about_description{
-        /* border: solid 1px white; */
         width: 350px;
     }
     /* Contact Section */
@@ -323,17 +299,14 @@ footer>h6>a{
         display: flex;
         flex-direction: column;
         align-items: center;
-        /* border: solid 1px green; */
     }
     .contact_title{
         padding-top: 1rem;
     }
     .contact_description{
-        /* border: solid 1px red; */
         width: 30rem;
     }
     .contact_info_container{
-        /* border: solid 1px white; */
         display: flex;
         justify-content: space-evenly;
     }
