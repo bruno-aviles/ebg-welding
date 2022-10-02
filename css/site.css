@@ -62,7 +62,14 @@
     font-family: var(--subheading);
     text-align: center;
 }
-.button_custom{font-family: var(--subheading);}
+.button_custom{
+    font-family: var(--subheading);
+    transition: .2s;
+}
+.button_custom:hover{
+    background: var(--orange);
+    color: var(--black);
+}
 
 /* Services Section */
 .section_services{
@@ -127,8 +134,17 @@
 }
 .socialmedia_icon{
     color: var(--white);
+    transition: .2s ease-in-out;
+    margin: 0 1rem;
+}
+.socialmedia_icon:first-child{
+    margin-left: 0;
+}
+.socialmedia_icon:last-child{
+    margin-right: 0;
 }
 .socialmedia_icon:hover{
+    cursor: pointer;
     color: var(--orange);
 }
 
